@@ -9,14 +9,14 @@
 <body >
     <button onclick="filtrarTachados()" class="block px-4 py-2 border-b-2 border-black hover:bg-gray-200 w-full text-center">Mostrar tachados</button>
     <button onclick="filtrarNoTachados()" class="block px-4 py-2 border-b-2 border-black hover:bg-gray-200 w-full text-center">Mostrar no tachados</button>
-    <button onclick="mostrarTodos()" class="block px-4 py-2 border-b-2 border-black  hover:bg-gray-200 w-full text-center">Mostrar todos</button>
+    <button onclick="noFiltrar()" class="block px-4 py-2 border-b-2 border-black  hover:bg-gray-200 w-full text-center">Mostrar todos</button>
     <div class="h-100 w-full flex items-center  justify-center bg-teal-lightest font-sans">
         <div class="bg-white rounded shadow border-black p-6 m-4 w-full lg:w-3/4 lg:max-w-lg">
             <div class="mb-4">
                 <h1 class="text-grey-darkest">Todo List</h1>
                 <div id="div_input" class="flex mt-4">
                     <input id="inputTarea" class="shadow appearance-none border rounded w-full py-2 px-3 mr-4 text-grey-darker" placeholder="Ingrese una nueva tarea">
-                    <button id="boton_add" onclick="insertarTarea()"  class="flex-no-shrink p-2 border-2 rounded text-teal border-teal hover:text-white hover:bg-teal">Add</button>
+                    <button id="boton_add" onclick="crearTarea()"  class="flex-no-shrink p-2 border-2 rounded text-teal border-teal hover:text-white hover:bg-teal">Add</button>
                 </div>
             </div>
             <div id="div_tareas">
